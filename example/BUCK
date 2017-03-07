@@ -1,0 +1,39 @@
+cxx_binary(
+  name = 'astar-cities',
+  srcs = [
+    'astar-cities.cpp',
+  ],
+  deps = [
+    '//:boost-graph',
+  ],
+)
+
+cxx_binary(
+  name = 'astar-maze',
+  srcs = [
+    'astar_maze.cpp',
+  ],
+  deps = [
+    '//:boost-graph',
+  ],
+)
+
+cxx_binary(
+  name = 'copy-example',
+  srcs = [
+    'copy-example.cpp',
+  ],
+  deps = [
+    '//:boost-graph',
+  ],
+)
+
+cxx_binary(
+  name = 'dag-shortest-paths',
+  srcs = [
+    'dag_shortest_paths.cpp',
+  ],
+  deps = [
+    '//:boost-graph',
+  ],
+)
